@@ -1,0 +1,84 @@
+.prompt-form-container {
+  margin: 20px; /* Margin from left and right */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Rounded corners */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slightly transparent white background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.prompt-form-title {
+  font-size: 2.5rem; /* Larger font size */
+  font-weight: bold; /* Make the title bold */
+  color: #2c3e50; /* Darker color for the title */
+  margin-bottom: 20px; /* Space below the title */
+  letter-spacing: 1px; /* Slightly increase letter spacing */
+}
+
+.prompt-input {
+  width: 80%; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  margin: 10px 0; /* Margin around the input */
+  padding: 10px; /* Padding inside the textarea */
+  border: 2px solid #2980b9; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  resize: none; /* Disable resizing */
+  outline: none; /* Remove outline */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.prompt-input:focus {
+  border-color: #3498db; /* Change border color on focus */
+}
+
+.submit-button {
+  background-color: #2980b9; /* Set button color to blue */
+  color: white; /* Text color */
+  padding: 12px 25px; /* Padding for button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 1rem; /* Font size */
+  font-weight: bold; /* Make the button text bold */
+  transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+.submit-button:hover {
+  background-color: #3498db; /* Change background color on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.output-container {
+  margin-top: 20px; /* Space above output */
+  padding: 10px; /* Padding for output container */
+  border: 1px solid #2980b9; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  background-color: rgba(
+    236,
+    240,
+    241,
+    0.9
+  ); /* Slightly transparent background */
+}
+
+.output-title {
+  font-size: 1.5rem; /* Font size for output title */
+  font-weight: bold; /* Make the title bold */
+  color: #2c3e50; /* Darker color for output title */
+}
+
+.output-text {
+  font-size: 1rem; /* Font size for output text */
+  color: #34495e; /* Darker color for output text */
+}
+.button-container {
+  display: flex; /* Use flexbox to center */
+  justify-content: center; /* Center the button */
+  margin-top: 20px; /* Add space above the button */
+}
