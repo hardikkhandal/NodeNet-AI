@@ -56,7 +56,7 @@ export default function PromptForm() {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/central-node/process-prompt",
+        "https://decentralizationllms-production.up.railway.app/api/central-node/process-prompt",
         {
           method: "POST",
           headers: {
