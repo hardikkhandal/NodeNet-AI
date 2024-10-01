@@ -65,6 +65,7 @@ export default function PromptForm() {
           body: JSON.stringify({ prompt }),
         }
       );
+      //
       const data = await response.json();
       if (data.choices && data.choices.length > 0) {
         setOutput(data.choices[0].message.content); // Access the content directly
