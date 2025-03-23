@@ -15,6 +15,8 @@ export default function PromptForm() {
     "Submit Your Prompt",
     "Type Your Question Here",
     "Ask Anything",
+    "Get the fastest response",
+    "Repsonse from closest available node",
   ];
   const [messageIndex, setMessageIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -56,7 +58,7 @@ export default function PromptForm() {
 
     try {
       const response = await fetch(
-        "https://decentralizationllms-production.up.railway.app/api/central-node/process-prompt",
+        "https://decentralizationllms.onrender.com/api/central-node/process-prompt",
         {
           method: "POST",
           headers: {

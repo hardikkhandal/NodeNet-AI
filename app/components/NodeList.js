@@ -18,7 +18,7 @@ export default function NodeList() {
     const fetchNodes = async () => {
       try {
         const response = await axios.get(
-          "https://decentralizationllms-production.up.railway.app/api/central-node/nodes"
+          "https://decentralizationllms.onrender.com/api/central-node/nodes"
         );
         setNodes(response.data); // Set the fetched nodes
       } catch (error) {
